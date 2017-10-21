@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Examples</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<style type="text/css">
+		.input-item{
+		}
+
+		.input-item .input-title{
+			display: inline-block;
+			line-height: 30px;
+			margin: 5px 0;
+		}
+
+		.input-item input{
+			line-height: 30px;
+			padding: 3px 5px;
+		}
+	</style>
+	
+</head>
+<body>
+	<div class="box">
+		<div class="input-item">
+			<span class="input-title">text：</span><input class="jqtextchange" data-type="number" data-decimal="2" data-max="9999999" data-min="0.01" maxlength="8" type="text" name=""/>
+		</div>
+		<div class="input-item">
+			<span class="input-title">number</span><input class="jqtextchange" data-type="number" data-decimal="2" data-max="9999999" data-min="0.01" maxlength="8" type="number" name=""/>
+		</div>
+		<div class="input-item">
+			<span class="input-title">integer：</span><input class="jqtextchange" data-type='interger' data-max="99999999"  maxlength="8" name="" type="number" />
+		</div>
+		<div class="input-item">
+			<span class="input-title">positive：</span><input class="jqtextchange" data-type="positive" data-max="9999999" data-min="0" maxlength="8" type="number" name=""/>
+		</div>
+		<div class="input-item">
+			<span class="input-title">float：</span><input class="jqtextchange" data-type="float" data-decimal="1" data-max="9999999" data-min="0.1" maxlength="8" type="number" name=""/>
+		</div>
+
+
+	</div>
+	<script type="text/javascript" src="jquery-1.7.js"></script>
+	<script type="text/javascript" src="jquery.textchange.js"></script>
+</body>
+</html>
